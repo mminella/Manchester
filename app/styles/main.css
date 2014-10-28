@@ -5,10 +5,14 @@
   padding: 0.2em 0;
 }
 
-.vcenter {
+#mainHeader>header>div>div>div {
     height: 37px;
     vertical-align: middle;    
     display: table-cell;
+}
+
+#mainHeader>header>div>span {
+  margin: 10px 5px 0 0;
 }
 
 /* Space out content a bit */
@@ -28,6 +32,16 @@ body {
   font-weight: normal;
   font-size: 15px;
   margin: 0;
+}
+
+#mainHeader > nav {
+  margin-top: 40px;
+}
+
+#social {
+    height: 37px;
+    vertical-align: middle;    
+    display: table-cell;
 }
 
 #mainHeader a {
@@ -79,6 +93,11 @@ body {
 
 .conentColumn {
   min-height: 400px;
+}
+
+.social-icon {
+  height: 25px;
+  border: none;
 }
 
 footer {
