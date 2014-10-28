@@ -38,10 +38,16 @@ body {
   margin-top: 40px;
 }
 
-#social {
-    height: 37px;
-    vertical-align: middle;    
-    display: table-cell;
+#mainHeader > nav li:last-child {
+  margin-top: -3px;
+}
+
+#socialIcons {
+  margin-top: 8px;
+}
+
+#socialIcons li {
+  padding: 0 2px;
 }
 
 #mainHeader a {
@@ -65,9 +71,10 @@ body {
   height: 73px;
 }
 
-.mainNav {
+.main-nav {
   background-color: #882A2A;
   padding: 0;
+  height: 41px;
 }
 
 #carousel {
@@ -77,6 +84,13 @@ body {
 #content header {
   color: white;
   background-color: #332E2F;
+  height: 50px;
+}
+
+#content header > h1 {
+  margin: 12px 0 8px 0;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 #content>div.row>div {
@@ -91,8 +105,17 @@ body {
     border-right: 1px solid #332E2F;
 }
 
-.conentColumn {
+#content ul.divided > li {
+  border-bottom: 1px solid #332E2F;
+}
+
+#content ul.divided > li:last-child {
+  border-bottom: none;
+}
+
+.conent-column {
   min-height: 400px;
+  text-align: center;
 }
 
 .social-icon {
