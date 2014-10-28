@@ -5,21 +5,37 @@
   padding: 0.2em 0;
 }
 
+.vcenter {
+    height: 37px;
+    vertical-align: middle;    
+    display: table-cell;
+}
+
 /* Space out content a bit */
 body {
   background-color: #C5C78F;
 }
 
 #mainHeader header {
-  min-height: 45px;
-  height: 45px;
+  min-height: 43px;
+  height: 43px;
   background-color: #332E2F;
+  padding-top: 6px;
 }
 
 #mainHeader h1{
   color: white;
+  font-weight: normal;
   font-size: 15px;
   margin: 0;
+}
+
+#mainHeader a {
+  color: white;
+}
+
+#mainHeader a:hover {
+  background-color: #332E2F;
 }
 
 #mainHeader .navbar {
@@ -29,6 +45,10 @@ body {
 
 #mainHeader .header {
   border: none;
+}
+
+.header-logo {
+  height: 73px;
 }
 
 .mainNav {
@@ -47,10 +67,22 @@ body {
 
 #content>div.row>div {
   background-color: white;
-  border: 1px solid #332E2F;
+}
+
+#content>div.row>div:first-child {
+    border-left: 1px solid #332E2F;
+}
+
+#content>div.row>div {
+    border-right: 1px solid #332E2F;
+}
+
+.conentColumn {
+  min-height: 400px;
 }
 
 footer {
+  color: white;
   background-color: #332E2F;
   height: 90px;
 }
