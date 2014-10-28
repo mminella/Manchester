@@ -5,6 +5,10 @@
   padding: 0.2em 0;
 }
 
+body {
+  font-family: Avenir, Arial, sans-serif;
+}
+
 #mainHeader>header>div>div>div {
     height: 37px;
     vertical-align: middle;    
@@ -36,6 +40,10 @@ body {
 
 #mainHeader > nav {
   margin-top: 40px;
+}
+
+#mainHeader > nav li > a {
+  padding: 7px 7px 6px 7px;
 }
 
 #mainHeader > nav li:last-child {
@@ -75,6 +83,7 @@ body {
   background-color: #882A2A;
   padding: 0;
   height: 41px;
+  font-size: 20px;
 }
 
 #carousel {
@@ -109,18 +118,46 @@ body {
   border-bottom: 1px solid #332E2F;
 }
 
+.content-header {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 15px 0 0 0;
+}
+
 #content ul.divided > li:last-child {
   border-bottom: none;
 }
 
 .conent-column {
-  min-height: 400px;
+  min-height: 215px;
   text-align: center;
+  font-color: #332E2F;
+  font-size: 15px;
 }
 
 .social-icon {
   height: 25px;
   border: none;
+}
+
+.calendar-entry {
+  border-bottom: 1px solid #332E2F;
+}
+
+.calendar-entry div {
+  border: 1px solid pink;
+  float:left;
+  margin: auto 0;
+}
+
+.calendar-entry div:first-child > span {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.calendar-entry div:first-child > h2 {
+  margin: 0;
+  font-size: 40px;
 }
 
 footer {
