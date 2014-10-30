@@ -146,8 +146,12 @@ body {
 
 .calendar-entry div {
   border: 1px solid pink;
-  float:left;
   margin: auto 0;
+  vertical-align: middle;
+}
+
+.calendar-entry div:first-child {
+  height: 100%;
 }
 
 .calendar-entry div:first-child > span {
