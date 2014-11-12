@@ -59,7 +59,7 @@ body {
 }
 
 #mainHeaderContent {
-  width: 100%;
+  width: 1067px;
 }
 
 #mainHeader > nav {
@@ -87,7 +87,8 @@ body {
 }
 
 #mainHeader a:hover {
-  background-color: #332E2F;
+  color: #FFFF33;
+  background-color: #882A2A;
 }
 
 #mainHeader .navbar {
@@ -107,7 +108,7 @@ body {
   background-color: #882A2A;
   padding: 0;
   height: 41px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 #carousel {
@@ -181,7 +182,7 @@ body {
 
 .calendar-entry div:last-child {
   text-align: left;
-  padding: 3% 0 3% 25px;
+  margin: 3% 0;
 }
 
 .calendar-entry div:first-child {
@@ -198,6 +199,10 @@ body {
 .calendar-entry div:first-child > h2 {
   margin: 0;
   font-size: 40px;
+}
+
+#eventCalendar > li:last-child > div {
+	border-bottom: none;
 }
 
 footer {

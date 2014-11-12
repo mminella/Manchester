@@ -1,5 +1,5 @@
 ## Manchester, CT Front End Repository
----
+
 This code has been tested with the following versions:
 
 * Node.js v0.10.33
