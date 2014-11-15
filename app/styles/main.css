@@ -18,6 +18,10 @@ input[type=search] {
   color: white;
 }
 
+input[type=search]:focus {
+	outline-style: none;
+}
+
 .right-inner-addon {
     position: relative;
 }
@@ -145,6 +149,7 @@ body {
 
 #content>div.row>div {
     border-right: 1px solid #332E2F;
+    height: 100%;
 }
 
 #content ul.divided > li {
@@ -161,6 +166,10 @@ body {
   border-bottom: none;
 }
 
+#content div.row {
+	background-color: white;
+}
+
 .conent-column {
   height: 100%;
   min-height: 235px;
@@ -171,6 +180,9 @@ body {
 
 #inquireColumn {
   text-align: left;
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 18px;
 }
 
 .social-icon {
@@ -185,6 +197,10 @@ body {
 .calendar-entry {
   padding: 0;
   border-bottom: 1px solid #332E2F;
+  margin:0;
+  display: table;
+  position: absolute;
+  width:100%;
 }
 
 .calendar-entry h1 {
@@ -211,6 +227,11 @@ body {
 .calendar-entry div:first-child > h2 {
   margin: 0;
   font-size: 40px;
+}
+
+.calendar-component {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 #eventCalendar > li:last-child > div {
