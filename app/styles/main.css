@@ -115,6 +115,7 @@ body {
 
 #carousel {
   height: 360px;
+  padding: 0px;
 }
 
 #content header {
@@ -127,6 +128,11 @@ body {
   margin: 12px 0 8px 0;
   font-size: 20px;
   font-weight: normal;
+}
+
+#content header > h1 > img {
+	margin-left: 10px;
+    vertical-align: top;    
 }
 
 #content>div.row>div {
@@ -161,6 +167,10 @@ body {
   text-align: center;
   font-color: #332E2F;
   font-size: 15px;
+}
+
+#inquireColumn {
+  text-align: left;
 }
 
 .social-icon {
@@ -232,4 +242,25 @@ footer a {
 footer a:hover {
   text-decoration: none;
   color: #858282;
+}
+
+.arrow {
+	display: none;
+}
+
+#mainHeader a:hover {
+  color: #FFFF33;
+  background-color: transparent;
+}
+
+.arrow_active{
+	display: visible;
+	background-color: #882A2A;
+	width: 15px;
+	height: 15px;
+	transform: rotate(45deg);
+	margin-top: -8px;
+	left: 45%;
+	position: absolute;
+	z-index: 1000;
 }

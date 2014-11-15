@@ -47,12 +47,12 @@
 
       <nav class="container main-nav">
           <ul class="nav">
-            <li class="active col-md-2 text-center"><a href="#">Things To Do</a></li>
-            <li class="col-md-2 text-center"><a href="#">Residents</a></li>
-            <li class="col-md-2 text-center"><a href="#">Business</a></li>
-            <li class="col-md-2 text-center"><a href="#">Government</a></li>
-            <li class="col-md-2 text-center"><a href="#">Programs</a></li>
-            <li class="col-md-2 text-center"><a href="#">How Do I</a></li>
+            <li class="active col-md-2 text-center"><a href="#">Things To Do</a><div class="arrow">&nbsp;</div></li>
+            <li class="col-md-2 text-center"><a href="#">Residents</a><div class="arrow">&nbsp;</div></li>
+            <li class="col-md-2 text-center"><a href="#">Business</a><div class="arrow">&nbsp;</div></li>
+            <li class="col-md-2 text-center"><a href="#">Government</a><div class="arrow">&nbsp;</div></li>
+            <li class="col-md-2 text-center"><a href="#">Programs</a><div class="arrow">&nbsp;</div></li>
+            <li class="col-md-2 text-center"><a href="#">How Do I</a><div class="arrow">&nbsp;</div></li>
           </ul>
       </nav>
     </div>
@@ -62,25 +62,21 @@
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="..." alt="...">
+          <img src="./images/marquee1.jpg" alt="Park">
           <div class="carousel-caption">
-            ...
           </div>
         </div>
         <div class="item">
-          <img src="..." alt="...">
+          <img src="./images/marquee2.jpg" alt="Waterfall">
           <div class="carousel-caption">
-            ...
           </div>
         </div>
-        ...
-      </div>
+      	</div>
 
       <!-- Controls -->
       <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -95,7 +91,7 @@
       <header class="row">
         <h1 class="col-md-4 text-center">Latest News</h1>
         <h1 class="col-md-4 text-center">Inquire</h1>
-        <h1 class="col-md-4 text-center">Upcoming Events</h1>
+        <h1 class="col-md-4 text-center">Upcoming Events<img src="./images/calendarIcon.png"/></h1>
       </header>
       <div class="row">
         <div class="col-md-4 conent-column">
@@ -114,8 +110,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-4 conent-column">
-          <ul>
+        <div id="inquireColumn" class="col-md-4 conent-column">
+          <ul class="list-unstyled">
             <li>Online Payments</li>
             <li>Report a Problem</li>
             <li>Building Permits</li>
