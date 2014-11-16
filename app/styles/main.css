@@ -122,6 +122,17 @@ body {
   padding: 0px;
 }
 
+.carousel-caption {
+	color: black;
+	background-color: rgba(255,255,255,.85);
+	bottom: 25%;
+	left: 10%;
+}
+
+.carousel-control {
+	width: 7%;
+}
+
 #content header {
   color: white;
   background-color: #332E2F;
@@ -170,12 +181,20 @@ body {
 	background-color: white;
 }
 
-.conent-column {
+.content-column {
   height: 100%;
   min-height: 235px;
   text-align: center;
-  font-color: #332E2F;
+  color: #332E2F;
   font-size: 15px;
+}
+
+.content-column a {
+	color: #332E2F;
+}
+
+.content-column a:hover {
+	text-decoration: none;
 }
 
 #inquireColumn {
@@ -199,8 +218,7 @@ body {
   border-bottom: 1px solid #332E2F;
   margin:0;
   display: table;
-/*  position: absolute;
-*/  width:100%;
+  width:100%;
 }
 
 .calendar-entry h1 {
@@ -234,7 +252,7 @@ body {
 	vertical-align: middle;
 }
 
-#eventCalendar > li:last-child > div {
+#eventCalendar > li:last-child > a > div {
 	border-bottom: none;
 }
 
