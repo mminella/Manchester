@@ -199,8 +199,8 @@ body {
   border-bottom: 1px solid #332E2F;
   margin:0;
   display: table;
-  position: absolute;
-  width:100%;
+/*  position: absolute;
+*/  width:100%;
 }
 
 .calendar-entry h1 {
