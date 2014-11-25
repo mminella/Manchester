@@ -75,7 +75,7 @@ body {
 }
 
 #mainHeader > nav li > a {
-  padding: 7px 7px 6px 7px;
+  padding: 11px 7px 9px 7px;
 }
 
 #mainHeader > nav li:last-child {
@@ -117,11 +117,22 @@ body {
   padding: 0;
   height: 41px;
   font-size: 19px;
+  display: block !important;
+}
+
+.main-nav > .navbar-nav {
+  float: none;
 }
 
 #carousel {
   height: 360px;
   padding: 0px;
+}
+
+@media (min-width: 992px) {
+  #carousel .item > img {
+    height: 360px;
+  }
 }
 
 .carousel-caption {
@@ -308,14 +319,44 @@ footer a:hover {
   background-color: transparent;
 }
 
+li.open > div.arrow {
+  display: block;
+  background-color: #882A2A;
+  width: 15px;
+  height: 15px;
+  transform: rotate(45deg);
+  margin-top: -7px;
+  left: 45%;
+  position: absolute;
+  z-index: 1000;
+}
+
 .arrow_active{
-	display: visible;
+	display: block;
 	background-color: #882A2A;
 	width: 15px;
 	height: 15px;
 	transform: rotate(45deg);
-	margin-top: -8px;
+	margin-top: -7px;
 	left: 45%;
 	position: absolute;
 	z-index: 1000;
+}
+
+#mainheader .nav > li > a:hover, .nav > li > a:focus {
+  background-color: #882A2A;
+}
+
+#mainHeader .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #882A2A;
+}
+
+div.dropdown-menu {
+  width: 410px;
+  padding: 15px;
+  z-index: 999;
+  border-left: 1px solid #882A2A;
+  border-right: 1px solid #882A2A;
+  border-bottom: 1px solid #882A2A;
+  border-radius: 0px;
 }
