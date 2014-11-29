@@ -112,7 +112,7 @@ body {
   height: 73px;
 }
 
-.main-nav {
+#mainNav {
   background-color: #882A2A;
   padding: 0;
   height: 41px;
@@ -120,19 +120,21 @@ body {
   display: block !important;
 }
 
-.main-nav > .navbar-nav {
+#mainNav > .navbar-nav {
   float: none;
+}
+
+#programsMainMenu div.dropdown-menu {
+	left: -30px;
+}
+
+#howDoIMainMenu div.dropdown-menu {
+	left: -225px;
 }
 
 #carousel {
   height: 360px;
   padding: 0px;
-}
-
-@media (min-width: 992px) {
-  #carousel .item > img {
-    height: 360px;
-  }
 }
 
 .carousel-caption {
@@ -352,11 +354,35 @@ li.open > div.arrow {
 }
 
 div.dropdown-menu {
-  width: 410px;
+  width: 420px;
   padding: 15px;
   z-index: 999;
   border-left: 1px solid #882A2A;
   border-right: 1px solid #882A2A;
   border-bottom: 1px solid #882A2A;
   border-radius: 0px;
+  color: #332E2F;
+}
+
+#mainNav div.dropdown-menu ul {
+	padding-left: 10px;
+}
+
+#mainNav div.dropdown-menu a {
+	color: #332E2F;
+	font-size: 17px;
+}
+
+@media (max-width: 1199px) {
+  #howDoIMainMenu div.dropdown-menu {
+    left: -258px;
+  }
+
+  #programsMainMenu div.dropdown-menu {
+	left: -97px;
+  }
+
+  #carousel .item > img {
+    height: 360px;
+  }
 }
