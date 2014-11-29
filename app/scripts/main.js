@@ -8,13 +8,13 @@ $(document).ready(function() {
 
 	var contentColumnMaxHeight = 0;
 	
-	$('.conent-column').each(function() {
+	$('.content-column').each(function() {
 		if(contentColumnMaxHeight < $(this).outerHeight()) {
 			contentColumnMaxHeight = $(this).outerHeight();
 		}
 	});
 
-	$('.conent-column').each(function() {
+	$('.content-column').each(function() {
 		var topPadding = parseInt($(this).css('padding-top'));
 		var bottomPadding = parseInt($(this).css('padding-top'));
 		$(this).height(contentColumnMaxHeight - (topPadding + bottomPadding));
@@ -33,4 +33,8 @@ $(document).ready(function() {
 			element.toggleClass('arrow_active');
 		});	
 	});
+	
+    $('[data-toggle=offcanvas]').click(function () {
+        $('.row-offcanvas').toggleClass('active');
+    });
 });
