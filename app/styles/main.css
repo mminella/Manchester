@@ -385,6 +385,10 @@ div.dropdown-menu {
 	font-size: 17px;
 }
 
+#mainNav div.dropdown-menu a:hover {
+	text-decoration: none;
+}
+
 @media (max-width: 1199px) {
   #howDoIMainMenu div.dropdown-menu {
     left: -258px;
@@ -502,6 +506,12 @@ body {
 	
 	#sidebarAccordion .panel-body {
 		margin-bottom: 0px;
+		border-top: 1px solid gray;
+	}
+	
+	#sidebarAccordion a:hover {
+		text-decoration: none;
+		color: yellow;
 	}
     
 }
