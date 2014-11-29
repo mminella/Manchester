@@ -27,7 +27,9 @@
 
     <div id="mainHeader">
       <header>
-        <div class="container">
+		<img class="header-logo pull-left visible-xs-block" src="./images/logo.png"/>
+		<h1 class="pull-left  visible-xs-block">Manchester, Conneticut</h1>
+        <div class="container hidden-xs">
           <div>
             <a href="#" class="pull-left"><img class="header-logo" src="./images/logo.png"/></a>
             <div id="mainHeaderContent">
@@ -44,7 +46,7 @@
           <span class="pull-right">Connect with us:</span>
         </div>
       </header>
-      <nav id="mainNav" class="container collapse">
+      <nav id="mainNav" class="container collapse hidden-xs">
         <ul class="nav navbar-nav">
           <li class="dropdown col-md-2 text-center">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Things To Do</a>
@@ -172,13 +174,16 @@
     </div>
 
     <div id="content" class="container">
-      <header class="row">
+<!--      <header class="row">
         <h1 class="col-md-4 text-center">Latest News</h1>
         <h1 class="col-md-4 text-center">Inquire</h1>
         <h1 class="col-md-4 text-center">Upcoming Events<img src="./images/calendarIcon.png"/></h1>
-      </header>
+      </header> -->
       <div class="row">
         <div class="col-md-4 content-column">
+			<header>
+	        	<h1 class="text-center">Latest News</h1>
+			</header>
           <ul class="list-unstyled divided">
             <li>
               <h1 class="content-header"><a href="#">Election Information</a></h1>
@@ -195,6 +200,9 @@
           </ul>
         </div>
         <div id="inquireColumn" class="col-md-4 content-column">
+			<header>
+	        	<h1 class="text-center">Inquire</h1>
+			</header>
           <ul class="list-unstyled">
             <li><a href="#"><img src="./images/dollarIcon.png"/>&nbsp;Online Payments</a></li>
             <li><a href="#"><img src="./images/cautionIcon.png"/>&nbsp;Report a Problem</a></li>
@@ -207,6 +215,9 @@
           </ul>
         </div>
         <div class="col-md-4 content-column">
+			<header>
+	        	<h1 class="text-center">Upcoming Events<img src="./images/calendarIcon.png"/></h1>
+			</header>
           <ul id="eventCalendar" class="list-unstyled">
             <li><a href="#">
               <div class="calendar-entry">
@@ -239,7 +250,7 @@
       </div>
     </div>
     <footer class="container">
-      <ul class="list-inline">
+      <ul class="list-inline hidden-xs">
         <li><a href="#">Employee Access</a></li>
         <li><a href="#">A-Z Department Listing</a></li>
         <li><a href="#">Website Statement</a></li>

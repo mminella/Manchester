@@ -169,7 +169,6 @@ body {
 }
 
 #content header > h1 {
-  margin: 12px 0 8px 0;
   font-size: 20px;
   font-weight: normal;
 }
@@ -216,6 +215,16 @@ body {
   text-align: center;
   color: #332E2F;
   font-size: 15px;
+  padding: 0;
+}
+
+.content-column header > h1 {
+	margin: 0px;
+	padding-top: 15px;
+}
+
+.content-column ul {
+	padding: 0 15px;
 }
 
 .content-column a {
@@ -228,9 +237,12 @@ body {
 
 #inquireColumn {
   text-align: left;
-  padding-top: 10px;
-  padding-left: 30px;
   font-size: 18px;
+}
+
+#inquireColumn ul {
+	padding-left: 30px;
+	padding-top: 10px;
 }
 
 .social-icon {
@@ -385,4 +397,20 @@ div.dropdown-menu {
   #carousel .item > img {
     height: 360px;
   }
+}
+
+@media (max-width: 767px) {
+	#mainNav {
+		display: none !important;
+	}
+	
+	.header-logo {
+		height: 30px;
+		margin: 0px 15px 0px 5px;
+	}
+	
+	#mainHeader h1 {
+		font-size: 20px;
+		margin-top: 5px;
+	}
 }
