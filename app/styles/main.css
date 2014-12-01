@@ -389,6 +389,10 @@ div.dropdown-menu {
 	text-decoration: none;
 }
 
+#mobileSearch {
+	border-bottom: 1px solid gray;
+}
+
 @media (max-width: 1199px) {
   #howDoIMainMenu div.dropdown-menu {
     left: -258px;
@@ -483,6 +487,13 @@ body {
 		background-color: #332E2F;
 		height: 100%;
     }
+
+	.sidebar-offcanvas input {
+		margin: 10px 0 10px 10px;
+		width: 90%;
+	  	background: url('../images/searchIcon.png') no-repeat scroll 5px 2px;
+	  	padding: 0 0px 0 30px;
+	}
 
 	#sidebarAccordion a {
 		color: white;

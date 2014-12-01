@@ -18,10 +18,99 @@
 	background: white;
 	border-left: 1px solid #332E2F;
 	border-right: 1px solid #332E2F;
+	padding-right: 0px;
 }
 
 #mainContent article {
 	background: white;
 	margin-top: -30px;
+	padding-top: 10px;
 	height: 100%;
+}
+
+#leftNav {
+	padding: 0;
+	height: 100%;
+}
+
+#leftNav h1 {
+	margin-top: 10px;
+}
+
+#leftNav h1 a {
+	font-size: 30px;
+}
+
+#leftNav ul {
+	margin-right: 10px;
+}
+
+#leftNav li {
+	padding: 5px 10px;
+}
+
+#leftNav li.active {
+	background: #C5C78F;
+}
+
+#leftNav nav {
+	margin-top: 10px;
+	border-right: 1px solid #CCC;
+	height: 100%;
+}
+
+#leftNav a {
+	color: #332E2F;
+}
+
+#leftNav a:hover {
+	text-decoration: none;
+}
+
+#leftNav li {
+	border-bottom: 1px solid #CCC;
+}
+
+#socialRail {
+	padding: 0px;
+	height: 100%;
+}
+
+#socialRailContainer {
+	border-left: 1px solid #CCC;
+	margin-bottom: 10px;
+	height: 100%;
+}
+
+#socialRail > div > h1 {
+	background: #C5C78F;
+	padding: 5px 10px;
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+#socialRail div > h1 img {
+	height: 20px;
+}
+
+#twitterTimeline {
+	padding: 0 10px;
+}
+
+#sharingIcons {
+	margin: 10px 0 0 15%;
+	padding: 0;
+}
+
+@media (max-width: 1199px) {
+	#sharingIcons {
+		margin: 10px 5% 0 5%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#mainContent {
+		padding: 0px;
+	}
 }
