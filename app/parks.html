@@ -151,6 +151,7 @@
 	    <div id="parkHeader" class="container">
 	    	<h1>Parks</h1>
 	    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin velit tellus, vulputate id ex at, iaculis bibendum letus. Nullam accumsan.</p>
+	    	<div id="gmap"></div>
 	    </div>
 	    <footer class="container">
 	      <ul class="list-inline hidden-xs">
@@ -281,9 +282,11 @@
 		</div>
 	</div>
 
+	<script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.7"></script>
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery/jquery.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -310,6 +313,7 @@
         <script src="bower_components/bootstrap/js/scrollspy.js"></script>
         <script src="bower_components/bootstrap/js/collapse.js"></script>
         <script src="bower_components/bootstrap/js/tab.js"></script>
+        <script src="bower_components/Maplace.Js/src/maplace-0.1.3.min.js"></script>
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
@@ -327,6 +331,21 @@
 		        var head = document.getElementsByTagName("head")[0];
 		        head.appendChild(trial);
 		    })();
+
+		    var maplace = new Maplace({
+		    	map_options: {
+			        set_center: [41.775930, -72.521501],
+			        zoom: 13,
+			        mapTypeControlOptions: {
+			        	position: google.maps.ControlPosition.BOTTOM_CENTER
+			        },
+			        zoomControlOptions: {
+			        	position: google.maps.ControlPosition.RIGHT_TOP
+			        },
+			        panControl: false
+		    	}
+		    }); 
+			maplace.Load(); 
 		</script>
 </body>
 </html>
