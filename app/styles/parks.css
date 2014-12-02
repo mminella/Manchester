@@ -1,0 +1,9 @@
+#parkHeader {
+	background: white;
+	border-left: 1px solid #332E2F;
+	border-right: 1px solid #332E2F;
+}
+
+#parkHeader h1 {
+	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
+}

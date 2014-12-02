@@ -92,6 +92,7 @@
 	font-size: 20px;
 	margin-top: 5px;
 	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
+	vertical-align: bottom;
 }
 
 #socialRail div > h1 img {

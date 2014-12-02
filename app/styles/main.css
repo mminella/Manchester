@@ -388,6 +388,7 @@ div.dropdown-menu {
 
 #mainNav div.dropdown-menu a:hover {
 	text-decoration: none;
+  font-weight: bold;
 }
 
 #mobileSearch {

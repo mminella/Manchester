@@ -1,0 +1,332 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Town of Manchester, Connecticut</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/parks.css -->
+    <link rel="stylesheet" href="styles/parks.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+	<div class="row-offcanvas row-offcanvas-right">
+	    <div id="mainHeader">
+	      <header>
+			<img class="header-logo pull-left visible-xs-block" src="./images/logo.png"/>
+			<h1 class="pull-left visible-xs-block">Manchester, Conneticut</h1>
+			<button id="mobileNavButton" type="button" class="navbar-toggle pull-right visible-xs-block" style="color:white;" data-toggle="offcanvas">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	        </button>
+	        <div class="container hidden-xs">
+	          <div>
+	            <a href="#" class="pull-left"><img class="header-logo" src="./images/logo.png"/></a>
+	            <div id="mainHeaderContent">
+	              <h1 class="pull-left">The official website of the Town of Manchester, Connecticut</h1>
+	              <input type="search" class="pull-right"/>
+	            </div>
+	          </div>
+	          <ul id="socialIcons" class="list-inline pull-right">
+	            <li class="active"><a href="#"><img class="social-icon" src="./images/facebookicon.png"/></a></li>
+	            <li><a href="#"><img class="social-icon" src="./images/twittericon.png"/></a></li>
+	            <li><a href="#"><img class="social-icon" src="./images/contactIcon.png"/></a></li>
+	            <li><a href="#"><img class="social-icon" src="./images/newsletterIcon.png"/></a></li>
+	          </ul>
+	          <span class="pull-right">Connect with us:</span>
+	        </div>
+	      </header>
+	      <nav id="mainNav" class="container collapse hidden-xs">
+	        <ul class="nav navbar-nav">
+	          <li class="dropdown col-md-2 text-center">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Things To Do</a>
+	            <div class="arrow">&nbsp;</div>
+	            <div class="dropdown-menu" role="menu">
+	              <img class="pull-left" src="./images/modelTrains.jpg"/>
+	              <ul class="pull-left list-unstyled">
+	                <li><a href="#">Parks and Recreation</a></li>
+	                <li><a href="#">Library</a></li>
+	                <li><a href="#">Senior Center</a></li>
+	                <li><a href="#">Youth</a></li>
+	                <li><a href="#">Arts</a></li>
+	                <li><a href="#">Worship</a></li>
+	              </ul>
+	            </div>
+	          </li>
+	          <li class="dropdown col-md-2 text-center">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Residents</a>
+	            <div class="arrow">&nbsp;</div>
+	            <div class="dropdown-menu" role="menu">
+	              <img class="pull-left" src="./images/modelTrains.jpg"/>
+	              <ul class="pull-left list-unstyled">
+	                <li><a href="#">Household</a></li>
+	                <li><a href="#">Neighborhood</a></li>
+	                <li><a href="#">Health</a></li>
+	                <li><a href="#">Public Safety</a></li>
+	                <li><a href="#">Education</a></li>
+	                <li><a href="#">Get Involved</a></li>
+	                <li><a href="#">Get Notified</a></li>
+	              </ul>
+	            </div>
+	          </li>
+	          <li class="dropdown col-md-2 text-center">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Business</a>
+	            <div class="arrow">&nbsp;</div>
+	            <div class="dropdown-menu" role="menu">
+	              <img class="pull-left" src="./images/modelTrains.jpg"/>
+	              <ul class="pull-left list-unstyled">
+	                <li><a href="#">Doing Business</a></li>
+	                <li><a href="#">Starting out</a></li>
+	                <li><a href="#">Permits</a></li>
+	                <li><a href="#">Development</a></li>
+	                <li><a href="#">Vendors</a></li>
+	                <li><a href="#">Downtown District</a></li>
+	              </ul>
+	            </div>
+	          </li>
+	          <li class="dropdown col-md-2 text-center">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Government</a>
+	            <div class="arrow">&nbsp;</div>
+	            <div class="dropdown-menu" role="menu">
+	              <img class="pull-left" src="./images/modelTrains.jpg"/>
+	              <ul class="pull-left list-unstyled">
+	                <li><a href="#">Board of Directors</a></li>
+	                <li><a href="#">Boards / Commissions</a></li>
+	                <li><a href="#">General Manager's Office</a></li>
+	                <li><a href="#">Department List</a></li>
+	                <li><a href="#">Jobs</a></li>
+	                <li><a href="#">Get Involved</a></li>
+	              </ul>
+	            </div>
+	          </li>
+	          <li id="programsMainMenu" class="dropdown col-md-2 text-center">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Programs</a>
+	            <div class="arrow">&nbsp;</div>
+	            <div class="dropdown-menu" role="menu">
+	              <img class="pull-left" src="./images/modelTrains.jpg"/>
+	              <ul class="pull-left list-unstyled">
+	                <li><a href="#">Manchester 2020</a></li>
+	                <li><a href="#">Construction Projects</a></li>
+	                <li><a href="#">Construction Alerts</a></li>
+	                <li><a href="#">Environment</a></li>
+	              </ul>
+	            </div>
+	          </li>
+	          <li id="howDoIMainMenu" class="dropdown col-md-2 text-center">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">How Do I</a>
+	            <div class="arrow">&nbsp;</div>
+	            <div class="dropdown-menu" role="menu">
+	              <img class="pull-left" src="./images/modelTrains.jpg"/>
+	              <ul class="pull-left list-unstyled">
+	                <li><a href="#">Apply / Obtain</a></li>
+	                <li><a href="#">Pay</a></li>
+	                <li><a href="#">Register</a></li>
+	                <li><a href="#">Report</a></li>
+	              </ul>
+	            </div>
+	          </li>
+	        </ul>
+	      </nav>
+	    </div>
+	    <div id="parkHeader" class="container">
+	    	<h1>Parks</h1>
+	    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin velit tellus, vulputate id ex at, iaculis bibendum letus. Nullam accumsan.</p>
+	    </div>
+	    <footer class="container">
+	      <ul class="list-inline hidden-xs">
+	        <li><a href="#">Employee Access</a></li>
+	        <li><a href="#">A-Z Department Listing</a></li>
+	        <li><a href="#">Website Statement</a></li>
+	        <li><a href="#">Contact us</a></li>
+	      </ul>
+	      <p class="text-center">Copyright 2014 Town of Manchester</p>
+	    </footer>
+		<div class="col-xs-9 visible-xs sidebar-offcanvas" role="navigation">
+			<div>
+              <input type="search"/>
+			</div>
+			<div class="panel-group" id="sidebarAccordion">
+               <div class="panel panel-default">
+                 <div class="panel-heading">
+                   <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#sidebarAccordion" href="#menu6">
+                       Things to Do
+                     </a>
+                   </h4>
+                 </div>
+                 <div id="menu6" class="panel-collapse collapse">
+                   <ul class="panel-body list-unstyled">
+                     <li><a href="#">Parks and Recreation</a></li>
+                     <li><a href="#">Library</a></li>
+                     <li><a href="#">Arts and Leisure</a></li>
+                     <li><a href="#">Places of Worship</a></li>
+                   </ul>
+                 </div>
+               </div>
+               <div class="panel panel-default">
+                 <div class="panel-heading">
+                   <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#sidebarAccordion" href="#menu2">
+                       Resident Services
+                     </a>
+                   </h4>
+                 </div>
+                 <div id="menu2" class="panel-collapse collapse">
+                   <ul class="panel-body list-unstyled">
+                     <li><a href="#">Household</a></li>
+                     <li><a href="#">Neighborhoods</a></li>
+                     <li><a href="#">Health</a></li>
+                     <li><a href="#">Public Safety</a></li>
+                     <li><a href="#">Environmental</a></li>
+                     <li><a href="#">Education</a></li>
+                     <li><a href="#">Getting Involved</a></li>
+                     <li><a href="#">Get Notified</a></li>
+                   </ul>
+                 </div>
+               </div>
+               <div class="panel panel-default">
+                 <div class="panel-heading">
+                   <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#sidebarAccordion" href="#menu3">
+                       Business and Development
+                     </a>
+                   </h4>
+                 </div>
+                 <div id="menu3" class="panel-collapse collapse">
+                   <ul class="panel-body list-unstyled">
+                     <li><a href="#">Doing Business</a></li>
+                     <li><a href="#">Starting Out</a></li>
+                     <li><a href="#">Developing and Consulting</a></li>
+                     <li><a href="#">Town Bids</a></li>
+                     <li><a href="#">Downtown District</a></li>
+                   </ul>
+                 </div>
+               </div>
+               <div class="panel panel-default">
+                 <div class="panel-heading">
+                   <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#sidebarAccordion" href="#menu4">
+                       Government
+                     </a>
+                   </h4>
+                 </div>
+                 <div id="menu4" class="panel-collapse collapse">
+                   <ul class="panel-body list-unstyled">
+                     <li><a href="#">Board of Directors</a></li>
+                     <li><a href="#">Boards and Commissions</a></li>
+                     <li><a href="#">General Manager's Office</a></li>
+                     <li><a href="#">Departments</a></li>
+                     <li><a href="#">Job Opportunities</a></li>
+                     <li><a href="#">Get Involved</a></li>
+                     <li><a href="#">Public Records</a></li>
+                     <li><a href="#">Finance and Budget</a></li>
+                   </ul>
+                 </div>
+               </div>
+               <div class="panel panel-default">
+                 <div class="panel-heading">
+                   <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#sidebarAccordion" href="#menu5">
+                       Programs and Initaitives
+                     </a>
+                   </h4>
+                 </div>
+                 <div id="menu5" class="panel-collapse collapse">
+                   <ul class="panel-body list-unstyled">
+                     <li><a href="#">Environment</a></li>
+                     <li><a href="#">Manchester 2020</a></li>
+                     <li><a href="#">Construction Projects</a></li>
+                   </ul>
+                 </div>
+               </div>
+               <div class="panel panel-default">
+                 <div class="panel-heading">
+                   <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#sidebarAccordion" href="#menu1">
+                       How Do I
+                     </a>
+                   </h4>
+                 </div>
+                 <div id="menu1" class="panel-collapse collapse">
+                   <ul class="panel-body list-unstyled">
+                     <li><a href="#">Apply For/Obtain</a></li>
+                     <li><a href="#">Pay</a></li>
+                     <li><a href="#">Register</a></li>
+                     <li><a href="#">Report a Problem</a></li>
+                     <li><a href="#">Inquire / Information</a></li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+		</div>
+	</div>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+        <!-- build:js(.) scripts/plugins.js -->
+        <script src="bower_components/bootstrap/js/affix.js"></script>
+        <script src="bower_components/bootstrap/js/alert.js"></script>
+        <script src="bower_components/bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/bootstrap/js/modal.js"></script>
+        <script src="bower_components/bootstrap/js/transition.js"></script>
+        <script src="bower_components/bootstrap/js/button.js"></script>
+        <script src="bower_components/bootstrap/js/popover.js"></script>
+        <script src="bower_components/bootstrap/js/carousel.js"></script>
+        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/bootstrap/js/collapse.js"></script>
+        <script src="bower_components/bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+
+		<script type="text/javascript">
+		    (function() {
+		        var path = '//easy.myfonts.net/v2/js?sid=10338(font-family=Avenir+55+Roman)&sid=10340(font-family=Avenir+85+Heavy)&sid=10342(font-family=Avenir+45+Book)&sid=10344(font-family=Avenir+65+Medium)&key=dFmCK3mr2h',
+		            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+		            trial = document.createElement('script');
+		        trial.type = 'text/javascript';
+		        trial.async = true;
+		        trial.src = protocol + path;
+		        var head = document.getElementsByTagName("head")[0];
+		        head.appendChild(trial);
+		    })();
+		</script>
+</body>
+</html>
