@@ -414,5 +414,18 @@
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
+
+		<script type="text/javascript">
+		    (function() {
+		        var path = '//easy.myfonts.net/v2/js?sid=10338(font-family=Avenir+55+Roman)&sid=10340(font-family=Avenir+85+Heavy)&sid=10342(font-family=Avenir+45+Book)&sid=10344(font-family=Avenir+65+Medium)&key=dFmCK3mr2h',
+		            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+		            trial = document.createElement('script');
+		        trial.type = 'text/javascript';
+		        trial.async = true;
+		        trial.src = protocol + path;
+		        var head = document.getElementsByTagName("head")[0];
+		        head.appendChild(trial);
+		    })();
+		</script>
 </body>
 </html>

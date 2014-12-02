@@ -6,17 +6,9 @@ $(document).ready(function() {
 	    $(this).parent().height(tmpHeight);
 	});
 
-	var contentColumnMaxHeight = 0;
-	
-	$.each([$('#leftNav'), $('#mainContent > article'), $('#socialRail')], function() {
-		if(contentColumnMaxHeight < $(this).outerHeight()) {
-			contentColumnMaxHeight = $(this).outerHeight();
-		}
-	});
-	
-	console.log('Max height = ' + contentColumnMaxHeight);
+	var contentColumnMaxHeight = $('#mainContent').height();
 
 	$.each([$('#leftNav'), $('#socialRail')], function() {
-		$(this).height(contentColumnMaxHeight - (50));
+		$(this).height(contentColumnMaxHeight - (10));
 	});
 });

@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Avenir, Arial, sans-serif;
+  font-family: 'Avenir 45 Book', Arial, sans-serif;
 }
 
 input[type=search] {
@@ -148,6 +148,7 @@ body {
 }
 
 .carousel-caption > h1 {
+  font-family: 'Avenir 85 Heavy', Arial, sans-serif;
   border-bottom: 1px solid #332E2F;
   margin: 0 0 10px 0;
   font-size: 22px;

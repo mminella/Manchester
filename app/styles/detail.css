@@ -12,6 +12,7 @@
 	text-align: center;
 	font-size: 38px;
 	display: inline-block;
+	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
 }
 
 #mainContent {
@@ -24,6 +25,7 @@
 #mainContent article {
 	background: white;
 	margin-top: -30px;
+	margin-bottom: 10px;
 	padding-top: 10px;
 	height: 100%;
 }
@@ -34,11 +36,12 @@
 }
 
 #leftNav h1 {
-	margin-top: 10px;
+	margin: 10px 0 0 0;	
 }
 
 #leftNav h1 a {
 	font-size: 30px;
+	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
 }
 
 #leftNav ul {
@@ -51,6 +54,7 @@
 
 #leftNav li.active {
 	background: #C5C78F;
+	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
 }
 
 #leftNav nav {
@@ -87,6 +91,7 @@
 	padding: 5px 10px;
 	font-size: 20px;
 	margin-top: 5px;
+	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
 }
 
 #socialRail div > h1 img {
