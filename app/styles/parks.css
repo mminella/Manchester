@@ -14,7 +14,22 @@
 	margin-left: 10px;
 }
 
+#mapContainer {
+	position: relative;
+}
+
 #gmap {
 	height: 550px;
 	border-top: 1px solid #CCC;
+}
+
+#parkDesc {
+	position: absolute;
+	background-color: white;
+	left: 3%;
+	top: 12%;
+	height: 75%;
+	width: 20%;
+	border: 1px solid #332E2F;
+	box-shadow: 5px 5px 5px #BBB;
 }
