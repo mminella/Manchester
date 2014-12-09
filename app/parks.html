@@ -152,8 +152,11 @@
 	    	<h1>Parks</h1>
 	    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin velit tellus, vulputate id ex at, iaculis bibendum letus. Nullam accumsan.</p>
 	    	<div id="mapContainer">
-		    	<div id="gmap"></div>
-		    	<div id="parkDesc"></div>
+				<div id="parkDesc">
+					<h1>Parks</h1>
+					<p>This is just some sample text...to be replaced</p>
+				</div>
+				<div id="gmap"></div>
 	    	</div>
 	    </div>
 	    <footer class="container">
@@ -289,7 +292,7 @@
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -303,52 +306,45 @@
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
 
-        <!-- build:js(.) scripts/plugins.js -->
-        <script src="bower_components/bootstrap/js/affix.js"></script>
-        <script src="bower_components/bootstrap/js/alert.js"></script>
-        <script src="bower_components/bootstrap/js/dropdown.js"></script>
-        <script src="bower_components/bootstrap/js/tooltip.js"></script>
-        <script src="bower_components/bootstrap/js/modal.js"></script>
-        <script src="bower_components/bootstrap/js/transition.js"></script>
-        <script src="bower_components/bootstrap/js/button.js"></script>
-        <script src="bower_components/bootstrap/js/popover.js"></script>
-        <script src="bower_components/bootstrap/js/carousel.js"></script>
-        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
-        <script src="bower_components/bootstrap/js/collapse.js"></script>
-        <script src="bower_components/bootstrap/js/tab.js"></script>
-        <script src="bower_components/Maplace.Js/src/maplace-0.1.3.min.js"></script>
-        <!-- endbuild -->
+       <!-- build:js(.) scripts/plugins.js -->
+       <script src="bower_components/bootstrap/js/affix.js"></script>
+       <script src="bower_components/bootstrap/js/alert.js"></script>
+       <script src="bower_components/bootstrap/js/dropdown.js"></script>
+       <script src="bower_components/bootstrap/js/tooltip.js"></script>
+       <script src="bower_components/bootstrap/js/modal.js"></script>
+       <script src="bower_components/bootstrap/js/transition.js"></script>
+       <script src="bower_components/bootstrap/js/button.js"></script>
+       <script src="bower_components/bootstrap/js/popover.js"></script>
+       <script src="bower_components/bootstrap/js/carousel.js"></script>
+       <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+       <script src="bower_components/bootstrap/js/collapse.js"></script>
+       <script src="bower_components/bootstrap/js/tab.js"></script>
+		<script scr="bower_components/jquery-ui/jquery-ui.min.js"></script>
+       <!-- endbuild -->
 
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+       <!-- build:js({app,.tmp}) scripts/main.js -->
+       <script src="scripts/main.js"></script>
+       <!-- endbuild -->
 
-		<script type="text/javascript">
-		    (function() {
-		        var path = '//easy.myfonts.net/v2/js?sid=10338(font-family=Avenir+55+Roman)&sid=10340(font-family=Avenir+85+Heavy)&sid=10342(font-family=Avenir+45+Book)&sid=10344(font-family=Avenir+65+Medium)&key=dFmCK3mr2h',
-		            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
-		            trial = document.createElement('script');
-		        trial.type = 'text/javascript';
-		        trial.async = true;
-		        trial.src = protocol + path;
-		        var head = document.getElementsByTagName("head")[0];
-		        head.appendChild(trial);
-		    })();
+       <!-- build:js({app,.tmp}) scripts/parks.js -->
+       <script src="scripts/parks.js"></script>
+       <!-- endbuild -->
 
-		    var maplace = new Maplace({
-		    	map_options: {
-			        set_center: [41.775930, -72.521501],
-			        zoom: 13,
-			        mapTypeControlOptions: {
-			        	position: google.maps.ControlPosition.BOTTOM_CENTER
-			        },
-			        zoomControlOptions: {
-			        	position: google.maps.ControlPosition.RIGHT_TOP
-			        },
-			        panControl: false
-		    	}
-		    }); 
-			maplace.Load(); 
-		</script>
+	<script type="text/javascript">
+	    (function() {
+	        var path = '//easy.myfonts.net/v2/js?sid=10338(font-family=Avenir+55+Roman)&sid=10340(font-family=Avenir+85+Heavy)&sid=10342(font-family=Avenir+45+Book)&sid=10344(font-family=Avenir+65+Medium)&key=dFmCK3mr2h',
+	            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+	            trial = document.createElement('script');
+	        trial.type = 'text/javascript';
+	        trial.async = true;
+	        trial.src = protocol + path;
+	        var head = document.getElementsByTagName("head")[0];
+	        head.appendChild(trial);
+	    })();
+	
+		$(document).ready(function() {
+			addMarker(41.774195,-72.522381, 'Center Memorial Park', '<p>Some Body</p>');
+		});
+	</script>
 </body>
 </html>

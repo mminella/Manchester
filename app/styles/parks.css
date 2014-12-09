@@ -32,4 +32,17 @@
 	width: 20%;
 	border: 1px solid #332E2F;
 	box-shadow: 5px 5px 5px #BBB;
+	z-index: 900;
+	padding: 10px;
+}
+
+#parkDesc h1 {
+	font-size: 20px;
+	border-bottom: 1px solid #332E2F;
+	margin: 0;
+	padding: 10px 0px 5px 0px;
+}
+
+#parkDesc p {
+	margin: 7px 0 0 0;
 }
