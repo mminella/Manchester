@@ -18,7 +18,11 @@ function addMarker(lat, lng, title, body) {
 			curTitle = '<h1>' + title + '</h1>';
 		}
 		
-	    $('#parkDesc').html(curTitle + body);
+		if($(window).width() > 767) {
+		    $('#parkDesc').html(curTitle + body);
+		} else {
+			$('#parkHeader').html(curTitle + body);
+		}
 	});
 }
 
