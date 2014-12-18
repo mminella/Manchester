@@ -1,0 +1,93 @@
+#mainContentHeader h1 {
+	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
+	margin: 20px 0 0 0;
+}
+
+#mainContent div.row {
+	background-color: #C5C78F;
+	padding-bottom: 15px;
+}
+
+#mainContent div.row > div {
+	padding: 0 7px 0 7px;
+}
+
+#mainContent article {
+	background-color: white;
+	min-height: 250px;
+	border: 1px solid #332E2F;
+}
+
+#mainContent article > div {
+	min-height: 250px;
+}
+
+.backgroundImage {
+	background-size: 100% 100%;
+}
+
+.wide h1 {
+	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
+	font-size: 20px;
+	border-bottom: 1px solid #332E2F;
+	text-align: center;
+	margin: 0 0 5px 0;
+	padding: 15px 0 5px 0;
+}
+
+.wide p {
+	line-height: 17px;
+}
+
+article.plain h1 {
+	margin: 0;
+	padding: 15px 0 45px 0;
+	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	background: linear-gradient(to bottom, white , white 40%, rgba(255, 255, 255, 0) );
+}
+
+article.bottom h1 {
+	padding: 213px 0 15px 0;
+	background: linear-gradient(to top, white , white 10%, rgba(255, 255, 255, 0) 30%);
+}
+
+#mainContent article.dark {
+	background-size: 280px, 100%;
+	background-repeat: no-repeat;
+	background-position: 60px 0px, 0px;
+	color: white;
+}
+
+#mainContent article.dark h1 {
+	margin: 0;
+	padding: 0px 0 30px 0px;
+	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
+	font-size: 20px;
+}
+
+#mainContent article.dark p {
+	margin-top: 30%;
+	width: 50%;
+}
+
+#mainContent article.dark > div {
+	padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+	#mainContent div.row {
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	#mainContent div.row > div {
+		margin-bottom: 7px;
+	}
+
+	#mainContent article.dark {
+		background-size: 280px, 100%;
+		background-repeat: no-repeat;
+		background-position: 190px 0px, 0px;
+	}
+}
