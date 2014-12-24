@@ -273,6 +273,10 @@ module.exports = function (grunt) {
           '<%= config.dist %>/styles/secondLevel.css': [
             '.tmp/styles/{,*/}*.css',
             '<%= config.app %>/styles/{,*/}*.css'
+          ],
+          '<%= config.dist %>/styles/thirdLevel.css': [
+            '.tmp/styles/{,*/}*.css',
+            '<%= config.app %>/styles/{,*/}*.css'
           ]
         }
       }

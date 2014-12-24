@@ -15,8 +15,8 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    <!-- build:css(.tmp) styles/parks.css -->
-    <link rel="stylesheet" href="styles/parks.css">
+    <!-- build:css(.tmp) styles/thirdLevel.css -->
+    <link rel="stylesheet" href="styles/thirdLevel.css">
     <!-- endbuild -->
     <link rel="stylesheet" href="Avenir.css">
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -40,7 +40,7 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	        </button>
-	        <div class="container hidden-xs">
+	        <div class="container hidden-sm hidden-xs">
 	          <div>
 	            <a href="#" class="pull-left"><img class="header-logo" src="./images/logo.png"/></a>
 	            <div id="mainHeaderContent">
@@ -150,18 +150,61 @@
 	      </nav>
 	    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
+		<div id="mainContent" class="container">
+			<h1><em>Household</em>&nbsp;Sanitation</h1>
+	    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin velit tellus, vulputate id ex at, iaculis bibendum letus. Nullam accumsan.</p>
+			<div id="articleContainer">
+				<article class="item image">
+					<img src="http://i.istockimg.com/file_thumbview_approve/11024445/2/stock-photo-11024445-recycling-series.jpg"></img>
+					<div>
+						<h1>Electronics Recycling</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non erat sit amet neque commodo condimentum. Donec posuere placerat nunc.</p>
+						<a href="#">More</a>
+					</div>
+				</article>
+				<article class="item">
+					<h1>FAQs</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non erat sit amet neque commodo condimentum. Donec posuere placerat nunc.</p>
+					<a href="#">More</a>
+				</article>
+				<article class="item">
+					<h1>Household Hazardous Waste</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non erat sit amet neque commodo condimentum. Donec posuere placerat nunc.</p>
+					<a href="#">More</a>
+				</article>
+				<article class="item image">
+					<img src="http://i.istockimg.com/file_thumbview_approve/26601501/2/stock-photo-26601501-cheerful-woman-sweeping-leaves-autumn-pile-backyard.jpg"></img>
+					<div>
+						<h1>Leaf Collection and Leaf Compost</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non erat sit amet neque commodo condimentum. Donec posuere placerat nunc.</p>
+						<a href="#">More</a>
+					</div>
+				</article>
+				<article class="item">
+					<h1>Trash and Recycle Pickup Schedule</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non erat sit amet neque commodo condimentum. Donec posuere placerat nunc.</p>
+					<a href="#">More</a>
+				</article>
+				<article class="item image">
+					<img src="http://i.istockimg.com/file_thumbview_approve/6637518/2/stock-photo-6637518-trash-day.jpg"></img>
+					<div>
+						<h1>Residential Curbside Refuse, Yard Waste, and Recycling Collection</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non erat sit amet neque commodo condimentum. Donec posuere placerat nunc.</p>
+						<a href="#">More</a>
+					</div>
+				</article>
+				<article class="item">
+					<h1>Single Stream Recycling</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non erat sit amet neque commodo condimentum. Donec posuere placerat nunc.</p>
+					<a href="#">More</a>
+				</article>
+				<article class="item">
+					<h1>Residents - Transfer Station</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non erat sit amet neque commodo condimentum. Donec posuere placerat nunc.</p>
+					<a href="#">More</a>
+				</article>
+			</div>
+		</div>
 	    <footer class="container">
 	      <ul class="list-inline hidden-xs">
 	        <li><a href="#">Employee Access</a></li>
@@ -295,7 +338,7 @@
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -322,7 +365,8 @@
        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
        <script src="bower_components/bootstrap/js/collapse.js"></script>
        <script src="bower_components/bootstrap/js/tab.js"></script>
-		<script scr="bower_components/jquery-ui/jquery-ui.min.js"></script>
+	   <script scr="bower_components/jquery-ui/jquery-ui.min.js"></script>
+	   <script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
        <!-- endbuild -->
 
        <!-- build:js({app,.tmp}) scripts/main.js -->
@@ -330,7 +374,7 @@
        <!-- endbuild -->
 
        <!-- build:js({app,.tmp}) scripts/parks.js -->
-       <script src="scripts/parks.js"></script>
+       <script src="scripts/thirdLevel.js"></script>
        <!-- endbuild -->
 </body>
 </html>

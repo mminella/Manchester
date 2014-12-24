@@ -409,7 +409,7 @@ div.dropdown-menu {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 	#mainNav {
 		display: none !important;
 	}
@@ -417,11 +417,13 @@ div.dropdown-menu {
 	.header-logo {
 		height: 30px;
 		margin: 0px 15px 0px 5px;
+		display: block !important;
 	}
 	
 	#mainHeader h1 {
 		font-size: 20px;
 		margin-top: 5px;
+		display: block !important;
 	}
 }
 
@@ -439,9 +441,10 @@ body {
  * Off Canvas
  * --------------------------------------------------
  */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 	#mobileNavButton {
 		margin: 0px;
+		display: block !important;
 	}
 	
     #mobileNavButton .icon-bar {
@@ -488,6 +491,7 @@ body {
 		padding: 0;
 		background-color: #332E2F;
 		height: 100%;
+		display: block !important;
     }
 
 	.sidebar-offcanvas input {

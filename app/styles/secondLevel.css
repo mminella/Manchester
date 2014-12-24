@@ -76,7 +76,7 @@ article.bottom h1 {
 	padding: 15px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 	#mainContent div.row {
 		margin-bottom: 0px;
 		padding-bottom: 0px;

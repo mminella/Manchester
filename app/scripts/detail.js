@@ -9,6 +9,14 @@ $(document).ready(function() {
 	var contentColumnMaxHeight = $('#mainContent').height();
 
 	$.each([$('#leftNav'), $('#socialRail')], function() {
-		$(this).height(contentColumnMaxHeight - (10));
+		$(this).height(contentColumnMaxHeight - (20));
+	});
+	
+	$(window).resize(function() {
+		contentColumnMaxHeight = $('#mainContent').height();
+
+		$.each([$('#leftNav'), $('#socialRail')], function() {
+			$(this).height(contentColumnMaxHeight - (20));
+		});
 	});
 });

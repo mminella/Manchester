@@ -1,0 +1,68 @@
+#mainContent {
+	background: white;
+	border-left: 1px solid #332E2F;
+	border-right: 1px solid #332E2F;
+}
+
+#mainContent > h1 {
+	font-family: 'AvenirLTStd-Heavy', Arial, sans-serif;
+	margin: 20px 0 0 0;
+}
+
+#mainContent > h1 > em {
+	font-style: normal;
+	color: gray;
+}
+
+.item {
+	width: 24%;
+	border: 1px solid #332E2F;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.item h1 {
+	font-family: 'AvenirLTStd-Heavy', Arial, sans-serif;
+	margin: 0 0 10px 0;
+	font-size: 20px;
+}
+
+.item p {
+	color: gray;
+}
+
+.item a {
+	color: #332E2F;
+}
+
+.item a:hover {
+	color: #332E2F;
+	text-decoration: none;
+}
+
+.image {
+	padding: 0;
+}
+
+.image > div {
+	display: none;
+	padding: 10px;
+}
+
+.image > img {
+	width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+	.item {
+		width: 100%;
+	}
+	
+	.image > img {
+		display: none;
+	}
+	
+	.image > div {
+		display: block;
+	}
+}
