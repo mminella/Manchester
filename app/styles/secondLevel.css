@@ -1,5 +1,5 @@
 #mainContentHeader h1 {
-	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
+	font-family: 'AvenirLTStd-Heavy', Arial, sans-serif;
 	margin: 20px 0 0 0;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .wide h1 {
-	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
+	font-family: 'AvenirLTStd-Heavy', Arial, sans-serif;
 	font-size: 20px;
 	border-bottom: 1px solid #332E2F;
 	text-align: center;
@@ -42,7 +42,7 @@
 article.plain h1 {
 	margin: 0;
 	padding: 15px 0 45px 0;
-	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
+	font-family: 'AvenirLTStd-Heavy', Arial, sans-serif;
 	font-size: 20px;
 	text-align: center;
 	background: linear-gradient(to bottom, white , white 40%, rgba(255, 255, 255, 0) );
@@ -63,7 +63,7 @@ article.bottom h1 {
 #mainContent article.dark h1 {
 	margin: 0;
 	padding: 0px 0 30px 0px;
-	font-family: 'Avenir 85 Heavy', Arial, sans-serif;
+	font-family: 'AvenirLTStd-Heavy', Arial, sans-serif;
 	font-size: 20px;
 }
 

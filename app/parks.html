@@ -18,6 +18,7 @@
     <!-- build:css(.tmp) styles/parks.css -->
     <link rel="stylesheet" href="styles/parks.css">
     <!-- endbuild -->
+    <link rel="stylesheet" href="Avenir.css">
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -292,7 +293,7 @@
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -331,17 +332,6 @@
        <!-- endbuild -->
 
 	<script type="text/javascript">
-	    (function() {
-	        var path = '//easy.myfonts.net/v2/js?sid=10338(font-family=Avenir+55+Roman)&sid=10340(font-family=Avenir+85+Heavy)&sid=10342(font-family=Avenir+45+Book)&sid=10344(font-family=Avenir+65+Medium)&key=dFmCK3mr2h',
-	            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
-	            trial = document.createElement('script');
-	        trial.type = 'text/javascript';
-	        trial.async = true;
-	        trial.src = protocol + path;
-	        var head = document.getElementsByTagName("head")[0];
-	        head.appendChild(trial);
-	    })();
-	
 		$(document).ready(function() {
 			addMarker(41.774195,-72.522381, 'Center Memorial Park', '<p>Some Body</p>');
 		});
