@@ -292,6 +292,9 @@ module.exports = function (grunt) {
           ],
           '<%= config.dist %>/scripts/parks.js': [
             '<%= config.app %>/scripts/parks.js'
+          ],
+          '<%= config.dist %>/scripts/thirdLevel.js': [
+            '<%= config.app %>/scripts/thirdLevel.js'
           ]
         }
       }
