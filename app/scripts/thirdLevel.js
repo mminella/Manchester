@@ -25,9 +25,11 @@ $(document).ready(function() {
 	
 	var $container = $('#articleContainer');
 	// initialize
-	$container.masonry({
-	  itemSelector: '.item',
-	  gutter: 10
+	$container.imagesLoaded( function() {
+		$container.masonry({
+		  itemSelector: '.item',
+		  gutter: 10
+		});
 	});
 	
 	$('.image').hover(function() {
