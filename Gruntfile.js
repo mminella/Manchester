@@ -259,24 +259,24 @@ module.exports = function (grunt) {
       dist: {
         files: {
           '<%= config.dist %>/styles/main.css': [
-            '.tmp/styles/{,*/}*.css',
-            '<%= config.app %>/styles/{,*/}*.css'
+            '.tmp/styles/main.css',
+            '<%= config.app %>/styles/main.css'
           ],
           '<%= config.dist %>/styles/detail.css': [
-            '.tmp/styles/{,*/}*.css',
-            '<%= config.app %>/styles/{,*/}*.css'
+            '.tmp/styles/detail.css',
+            '<%= config.app %>/styles/detail.css'
           ],
           '<%= config.dist %>/styles/parks.css': [
-            '.tmp/styles/{,*/}*.css',
-            '<%= config.app %>/styles/{,*/}*.css'
+            '.tmp/styles/parks.css',
+            '<%= config.app %>/styles/parks.css'
           ],
           '<%= config.dist %>/styles/secondLevel.css': [
-            '.tmp/styles/{,*/}*.css',
-            '<%= config.app %>/styles/{,*/}*.css'
+            '.tmp/styles/secondLevel.css',
+            '<%= config.app %>/styles/secondLevel.css'
           ],
           '<%= config.dist %>/styles/thirdLevel.css': [
-            '.tmp/styles/{,*/}*.css',
-            '<%= config.app %>/styles/{,*/}*.css'
+            '.tmp/styles/thirdLevel.css',
+            '<%= config.app %>/styles/thirdLevel.css'
           ]
         }
       }
@@ -327,6 +327,9 @@ module.exports = function (grunt) {
           cwd: 'bower_components/bootstrap/dist',
           src: 'fonts/*',
           dest: '<%= config.dist %>'
+        }, {
+	      src: 'bower_components/masonry/dist/masonry.pkgd.min.js',
+          dest: '<%= config.dist %>/scripts/masonry.js'
         }]
       },
       styles: {
