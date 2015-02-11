@@ -18,7 +18,15 @@
 	border: 1px solid #332E2F;
 }
 
-#mainContent article > div {
+#mainContent article > a {
+	color: black;
+}
+
+#mainContent article > a:hover {
+	text-decoration: none;
+}
+
+#mainContent article > a > div {
 	min-height: 250px;
 }
 
@@ -57,6 +65,9 @@ article.bottom h1 {
 	background-size: 280px, 100%;
 	background-repeat: no-repeat;
 	background-position: 60px 0px, 0px;
+}
+
+#mainContent article.dark > a {
 	color: white;
 }
 
@@ -72,7 +83,7 @@ article.bottom h1 {
 	width: 50%;
 }
 
-#mainContent article.dark > div {
+#mainContent article.dark > a > div {
 	padding: 15px;
 }
 
